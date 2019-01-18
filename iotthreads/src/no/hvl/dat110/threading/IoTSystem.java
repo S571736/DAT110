@@ -1,9 +1,9 @@
 package no.hvl.dat110.threading;
 
+import java.util.ArrayList;
+
 public class IoTSystem {
-    //Temperaturen kommer fra sensoren sin måling og via TD lagt inn i målingen
-    //DD henter og temperaturen fra målingen
-    //
+    //Through the TM class, both of them have access to this class
     public static void main(String[] args) {
 
         System.out.println("System starting ... ");
@@ -44,9 +44,7 @@ public class IoTSystem {
 
         try {
 
-
             tempdevice.join();
-
             disdevice.join();
 
             /*

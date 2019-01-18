@@ -4,14 +4,14 @@ public class TemperatureMeasurement {
 
     private int temp = 0;
 
-    public int getTemperature() {
+    public synchronized int getTemperature() {
 
         return temp;
     }
 
     public synchronized void setTemperature(int temp) {
         this.temp = temp;
-        notifyAll();
+        //notifyAll();
     }
 
 
