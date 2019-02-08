@@ -21,20 +21,20 @@ public class TemperatureDevice extends Thread {
         System.out.println("temperature device started");
         try {
             Registry registry = LocateRegistry.getRegistry(9091);
-            ServerInterface SI = (ServerImpl) registry.lookup("SI");
+            ServerInterface SI = (ServerInterface) registry.lookup("SI");
 
 
             while (true) {
                 int temp = sn.read();
 
-                ((ServerImpl) SI).saveTemp(temp);
+                SI.saveTemp(temp);
 
 
-                System.out.println("Server relaxing...");
+                System.out.println("TemperatureDevice is having a drink, please wait a second...");
                 Thread.sleep(1000);
             }
-        }catch (Exception e){
-            System.out.println("Error in TemperatureDevice" + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("TemperatureDevice turned into an alcoholic due to: " + e.getMessage());
             e.printStackTrace();
         }
 
