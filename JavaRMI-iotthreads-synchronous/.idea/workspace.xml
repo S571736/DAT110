@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f68194-508d-4495-8c46-24ebb6b1afee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaRMI-iotthreads-synchronous.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../iotthreads/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../iotthreads/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/no/hvl/dat110/Backend/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/no/hvl/dat110/Backend/InterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/no/hvl/dat110/Backend/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat110/tempsensor/TemperatureDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat110/tempsensor/TemperatureDevice.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/simulation/IoTSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="17" selection-start-line="16" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -35,8 +38,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/tempsensor/TemperatureDevice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="272">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/Backend/Interface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/Backend/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/Backend/InterfaceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,19 +88,33 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/no/hvl/dat110/simulation/Server.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat110/tempsensor/TemperatureInterface.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat110/Interface/INterface.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat110/Interface/Interface.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat110/Backend/Server.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat110/tempsensor/TemperatureDevice.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat110/Backend/InterfaceImpl.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat110/Backend/Interface.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="407" />
-    <option name="width" value="1520" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1049" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -100,6 +147,13 @@
               <item name="JavaRMI-iotthreads-synchronous" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dat110" type="462c0819:PsiDirectoryNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRMI-iotthreads-synchronous" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRMI-iotthreads-synchronous" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dat110" type="462c0819:PsiDirectoryNode" />
               <item name="display" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -126,8 +180,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549619950661" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549621897923" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DAT110_Teachers_Version/dat110public/week5/JavaRMI-Synchronous" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -155,18 +209,18 @@
       <updated>1549530937628</updated>
       <workItem from="1549530940572" duration="1352000" />
       <workItem from="1549532378020" duration="77000" />
-      <workItem from="1549618642400" duration="1307000" />
+      <workItem from="1549618642400" duration="3253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2736000" />
+    <option name="totallyTimeSpent" value="4682000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09015257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15838926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -208,6 +262,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/simulation/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/simulation/IoTSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/tempsensor/TemperatureInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/Backend/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/tempsensor/TemperatureDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/tempsensor/TemperatureSensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -215,20 +304,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/tempsensor/TemperatureDevice.java">
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/Backend/InterfaceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/simulation/IoTSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/Backend/Interface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
