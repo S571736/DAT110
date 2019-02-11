@@ -1,5 +1,7 @@
 package no.hvl.dat110.Backend;
 
+import no.hvl.dat110.CallBackInterface.ServerCallBackInterface;
+
 import java.rmi.AccessException;
 import java.rmi.AlreadyBoundException;
 import java.rmi.RemoteException;
@@ -10,8 +12,9 @@ public class Server {
     public static void main(String[] args) {
         try {
             Registry registry = LocateRegistry.createRegistry(9091);
-            ServerInterface IT = new ServerImpl();
 
+            //ServerInterface IT = new ServerImpl();
+            ServerCallBackInterface serverCallBack = new ServerCallbackImplement
             registry.bind("SI", IT);
             System.out.println("Server is up and running...");
         } catch (RemoteException e) {
